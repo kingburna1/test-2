@@ -1,0 +1,51 @@
+li{
+    list-style-type: none;
+    justify-content: space-between;
+}
+h5{
+    font-style: italic;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar li{
+    display: inline-block;
+}
+input{
+    border-radius: 7px;
+}
+
+.second-ul{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.login{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+}
+img{
+    width: 200px;
+    height: 190px;
+    border-radius: 5px;
+    
+}
+h6{
+margin-top: 2px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 350px 200px;
+    gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+

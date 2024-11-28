@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigtion bars</title>
+    <style>
+     
+      .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+        z-index: 4;
+      }
+        .nav-bar li{
+            list-style-type:none;
+            display: inline-block;
+            color: whitesmoke;
+            background-color: black;
+            cursor: pointer;
+         
+        }
+        li{
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px;
+            
+        
+        }
+        li :hover{
+            transform-style: 187px ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+            <ul>
+                <li> home</li>
+                <li>menu</li>
+                <li>content</li>
+                <li>customer services</li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+</body>
+</html>
